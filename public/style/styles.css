@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+ul{
+	list-style: none;
+}
+
+/*.panel-heading {
+border: solid 10px;
+color: red;
+
+}*/
+
+
+.event-detail{
+	font-size:28px;
+}
+.jumbotron{
+	background: url('/img/event.jpeg');
+	height: 500px;
+}
+.searchbar{
+	padding:25px;
+	border:1px solid black;
+	text-align: center;
+	width:70%;
+	margin:0 auto;
+	margin-top:-120px;
+	background: #fff;
+	border-radius: 5px;
+	color:#f63;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#search{
+	width:500px;
+	height:30px;
+}
+.search-btn{
+	color:#fff;
+	background: #f6682f;
+	height: 30px;
+	width:90px;
+	margin-bottom: 15px;
+
+}
+.search-text{
+	font-size: 35px;
+	letter-spacing: 2px;
+}
+
+.categories {
+display: inline;
+}
+/*
+NEW STYLING*/
+
+#main_container {
+align-items: center;
+text-align: center;
+
+}
+
+body {
+  align-items: center;
+}
+
+.container {
+  margin-top: 100px;
+
+}
+
+a {
+  color: white;
+}
+
+
+::-webkit-input-placeholder {
+   text-align: center;
+   background: transparent;
+   border: none;
+   color: #991d1d;
+  }
+
+#placeholder_color {
+	color: #991d1d;
+}
+
+input[type="text"] {
+    background: rgba(0,0,0,0.4);
+    /*margin: 5px;*/
+    font-size: 28px;
+    border: none;
+    color:white;
+    text-align: center;
+}
+
+input[type="date"] {
+    text-float: right;
+}
+
+input[type="password"] {
+    background: rgba(0,0,0,0.4);
+    margin: 5px;
+    font-size: 28px;
+    border: none;
+    color:white;
+    text-align: center;
+}
+
+select { width: 400px; text-align-last:center; }
+
+
+#btn_signup, #btn_login {
+  background-color: rgba(0,0,0,0.4);
+  text-decoration: none;
+  color: white;
+  border: none;
+  font-size: 28px;
+}
+
+#btn_admin, .btn_admin {
+  background-color: rgba(0,0,0,0.4);
+  text-decoration: none;
+  color: white;
+  border: none;
+  font-size: 28px;
+	width: 80%;
+	text-align: center;
+}
+
+#btn_date {
+  background-color: rgba(0,0,0,0.4);
+  text-decoration: none;
+  color: white;
+  border: none;
+  font-size: 28px;
+	width: 80%;
+	text-align: center;
+	padding-left: 15%;
+}
+
+#block_login {
+	margin: 15% 0 15% 0;
+}
+
+#logo {
+	width: 100px;
+	height: 80px;
+}
+
+#name_user {
+	font-size: 16px;
+	padding-top: 15px;
+	background: trasparent;
+}
+
+#title_block {
+	color: white;
+	font-size: 28px;
+}
+
+
+/* page image background */
+.image-background {
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -99;
+	position: absolute;
+	background-size: cover;
+}
+
+#admin_background {
+	background: url('/img/admin4.jpg');
+}
+
+#admin_event_right {
+	padding-left: 10%;
+}
+
+#admin_event_left {
+	padding-right: 10%;
+}
+
+#event_scroller {
+	height: 600px;
+	overflow-y: scroll;
+}
+
+#event_tile {
+	display: inline-block;
+	position: relative;
+	float: left;
+	width: 180px;
+	height: 280px;
+	margin: 10px;
+	border: 1px solid #fff ;
+}
+
+#event_logo {
+width: 100%;
+height: 65%;
+border: 1px solid #fff ;
+
+}
+
+.thumbnail {
+	width: 150px;
+	display: inline-block;
+}
+
+#caption {
+	width: 100%;
+	margin-top: 20px;
+	padding: 0 2%;
+	position: absolute;
+	bottom: auto;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#image_logo {
+	width: 100%;
+	height: 100%;
+}
+
+/*
+.position_bottom {
+	vertical-align: text-bottom;
+text-align:
+}*/
+
+/* for fullscreen video on index page */
+* { box-sizing: border-box; }
+.video-background {
+  background: #000;
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -99;
+}
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: -8%;
+  left: 0;
+  width: 100%;
+  height: 116%;
+  pointer-events: none;
+}
+#vidtop-content {
+	top: 0;
+	color: #fff;
+}
+.vid-info { position: absolute; top: 0; right: 0; width: 33%; background: rgba(0,0,0,0.3); color: #fff; padding: 1rem; font-family: Avenir, Helvetica, sans-serif; }
+.vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
+.vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground { width: 300%; left: -100%; }
+}
+@media all and (max-width: 600px) {
+.vid-info { width: 50%; padding: .5rem; }
+.vid-info h1 { margin-bottom: .2rem; }
+}
+@media all and (max-width: 500px) {
+.vid-info .acronym { display: none; }
+}
+
+
+
+/* map styling */

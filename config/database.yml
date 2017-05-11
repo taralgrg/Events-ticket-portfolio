@@ -1,0 +1,10 @@
+development:
+  adapter: postgresql
+  database: ticket_development
+
+test:
+  adapter: postgresql
+  database: ticket_test
+
+production:
+  url: <%= ENV['https://git.heroku.com/neverbyticketsalone.git'] %>
